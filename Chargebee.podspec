@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Chargebee'
-  s.version          = '0.3.0'
+  s.version          = '0.3.2'
   s.summary          = 'Chargebee iOS SDK'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Chargebee iOS SDK aims at simplifying recurring payments integration
   s.homepage         = 'https://www.chargebee.com'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.source           = { :git => 'https://github.com/chargebee/chargebee-ios.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cb-haripriyan/chargebee-ios.git', :tag => s.version.to_s }
   s.authors           = { 'cb-prabu' => 'prabu@chargebeeinc.com',
                           'cb-haripriyan' => 'hari@chargebeeinc.com' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
